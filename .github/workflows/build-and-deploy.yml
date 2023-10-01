@@ -37,11 +37,6 @@ jobs:
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
-          rm -rf *
-          cp -r ../site/* .
-          git add .
-
-          git branch -f gh-pages || git checkout -b gh-pages  # Ensure gh-pages branch exists
-          git checkout gh-pages
-          git commit -m "Deploy to GitHub Pages"
-          git push --force "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" HEAD:gh-pages
+          git add ./site/*
+          git commit -m "Deploying to GitHub Pages"
+          git push --force origin gh-pages
