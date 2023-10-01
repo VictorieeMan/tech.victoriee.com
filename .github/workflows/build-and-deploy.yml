@@ -41,9 +41,4 @@ jobs:
 
       # Commit and push the changes to the gh-pages branch
       - name: Deploy to GitHub Pages
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "github-actions@example.com"
-          git add .
-          git commit -m "Update GitHub Pages"
-          git push --force ${{ github.token }} HEAD:gh-pages
+      - run: mkdocs gh-deploy --force
