@@ -39,6 +39,14 @@ jobs:
           cd blog-site
           mkdocs build --site-dir ../../gh-pages/blog
 
+      # Check the contents of the directories
+      - name: Check Directory Contents
+        run: |
+          echo "Contents of gh-pages/docs:"
+          ls -l gh-pages/docs
+          echo "Contents of gh-pages/blog:"
+          ls -l gh-pages/blog
+
       # Deploy to GitHub Pages
       - run: |
           cd gh-pages
