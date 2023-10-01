@@ -9,3 +9,4 @@ plugins:
 nav:
   - Blog:
     - blog/index.md
+    - Home: https://victorieeman.github.io/
