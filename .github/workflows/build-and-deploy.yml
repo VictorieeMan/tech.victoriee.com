@@ -1,0 +1,43 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # Trigger this workflow on push to the main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # Build and deploy the docs site
+      - name: Build and Deploy Docs Site
+        run: |
+          cd docs
+          pip install mkdocs
+          mkdocs build
+          # Deploy to GitHub Pages (assuming docs is deployed to the root)
+          cp -r site/* ../gh-pages/
+
+      # Build and deploy the blog site
+      - name: Build and Deploy Blog Site
+        run: |
+          cd blog-site
+          pip install mkdocs
+          mkdocs build
+          # Deploy to GitHub Pages (assuming blog-site is deployed to a subdirectory)
+          mkdir -p ../gh-pages/blog
+          cp -r site/* ../gh-pages/blog/
+
+      # Commit and push the changes to the gh-pages branch
+      - name: Commit and Push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "github-actions@example.com"
+          git add -A
+          git commit -m "Update GitHub Pages"
+          git push origin gh-pages
