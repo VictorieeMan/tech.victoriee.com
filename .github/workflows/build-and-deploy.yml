@@ -31,13 +31,13 @@ jobs:
       - name: Build Docs Site
         run: |
           cd docs-site
-          mkdocs build --site-dir ../../gh-pages/docs
+          mkdocs build --site-dir ../gh-pages/docs
 
       # Build the blog site
       - name: Build Blog Site
         run: |
           cd blog-site
-          mkdocs build --site-dir ../../gh-pages/blog
+          mkdocs build --site-dir ../gh-pages/blog
 
       # Check the contents of the directories
       - name: Check Directory Contents
