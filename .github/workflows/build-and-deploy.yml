@@ -21,34 +21,22 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
 
-      # Prepare directories
-      - name: Prepare Directories
-        run: |
-          mkdir -p gh-pages/docs
-          mkdir -p gh-pages/blog
-
-      # Build the docs site
-      - name: Build Docs Site
+      - name: Build and Deploy Docs
         run: |
           cd docs-site
-          mkdocs build --site-dir ../gh-pages/docs
-
-      # Build the blog site
-      - name: Build Blog Site
+          mkdocs build --site-dir ../site
+          cd ..
+      
+      - name: Build and Deploy Blog
         run: |
           cd blog-site
-          mkdocs build --site-dir ../gh-pages/blog
-
-      # Check the contents of the directories
-      - name: Check Directory Contents
-        run: |
-          echo "Contents of gh-pages/docs:"
-          ls -l gh-pages/docs
-          echo "Contents of gh-pages/blog:"
-          ls -l gh-pages/blog
-
+          mkdocs build --site-dir ../site/blog
+          cd ..
+      
       - name: Deploy to GitHub Pages
-        uses: actions/gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: gh-pages
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add -A
+          git commit -m "Deploy to GitHub Pages"
+          git push --force "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" HEAD:gh-pages
