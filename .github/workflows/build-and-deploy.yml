@@ -41,4 +41,4 @@ jobs:
 
       # Commit and push the changes to the gh-pages branch
       - name: Deploy to GitHub Pages
-      - run: mkdocs gh-deploy --force
+        run: mkdocs gh-deploy --force
