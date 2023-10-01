@@ -21,27 +21,27 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
 
+      # Prepare directories
+      - name: Prepare Directories
+        run: |
+          mkdir -p gh-pages/docs
+          mkdir -p gh-pages/blog
+
       # Build the docs site
       - name: Build Docs Site
         run: |
           cd docs-site
-          mkdocs build
-          # Copy the built docs-site to a subdirectory named docs
-          mkdir -p ../gh-pages/docs
-          cp -r site/* ../gh-pages/docs
+          mkdocs build --site-dir ../../gh-pages/docs
 
       # Build the blog site
       - name: Build Blog Site
         run: |
           cd blog-site
-          mkdocs build
-          # Copy the built blog-site to a subdirectory named blog
-          mkdir -p ../gh-pages/blog
-          cp -r site/* ../gh-pages/blog
+          mkdocs build --site-dir ../../gh-pages/blog
 
       # Deploy to GitHub Pages
       - run: |
-          cd ../gh-pages
+          cd gh-pages
           git init
           git remote add origin https://${{ secrets.GITHUB_TOKEN }}@github.com/VictorieeMan/VictorieeMan.github.io.git
           git checkout -b gh-pages
