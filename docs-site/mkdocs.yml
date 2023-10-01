@@ -5,7 +5,3 @@ theme:
 
 plugins:
   - blog
-
-nav:
-  - Blog:
-    - blog/index.md

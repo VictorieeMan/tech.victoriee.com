@@ -6,6 +6,6 @@ theme:
 plugins:
   - blog
 
-# nav:
-#   - Blog:
-#     - blog/index.md
+nav:
+  - Blog:
+    - blog/index.md
