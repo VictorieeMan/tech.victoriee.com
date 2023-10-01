@@ -21,24 +21,30 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
 
-      # Build and deploy the docs site
-      - name: Build and Deploy Docs Site
+      # Build the docs site
+      - name: Build Docs Site
         run: |
           cd docs-site
           mkdocs build
-          # Copy the built docs-site to the root directory in a subdirectory named docs
-          mkdir -p ../docs
-          cp -r site/* ../docs
+          # Copy the built docs-site to a subdirectory named docs
+          mkdir -p ../gh-pages/docs
+          cp -r site/* ../gh-pages/docs
 
-      # Build and deploy the blog site
-      - name: Build and Deploy Blog Site
+      # Build the blog site
+      - name: Build Blog Site
         run: |
           cd blog-site
           mkdocs build
-          # Copy the built blog-site to the root directory in a subdirectory named blog
-          mkdir -p ../blog
-          cp -r site/* ../blog
+          # Copy the built blog-site to a subdirectory named blog
+          mkdir -p ../gh-pages/blog
+          cp -r site/* ../gh-pages/blog
 
-      # Commit and push the changes to the gh-pages branch
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+      # Deploy to GitHub Pages
+      - run: |
+          cd ../gh-pages
+          git init
+          git remote add origin https://${{ secrets.GITHUB_TOKEN }}@github.com/VictorieeMan/VictorieeMan.github.io.git
+          git checkout -b gh-pages
+          git add .
+          git commit -m "Update GitHub Pages"
+          git push -u origin gh-pages --force
