@@ -37,6 +37,9 @@ jobs:
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add ./site/*
-          git commit -m "Deploying to GitHub Pages"
-          git push
+          # push the site to the gh-pages branch
+          cd site
+          git init
+          git add .
+          git commit -m "Deploying to gh-pages"
+          git push --force --quiet "https://${{ secrets.GITHUB_TOKEN }}@${{ github.
