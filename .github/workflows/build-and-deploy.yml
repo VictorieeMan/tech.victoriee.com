@@ -1,57 +1,47 @@
 name: Build and Deploy
-
 on:
   push:
     branches:
-      - master
+      - master 
       - main
 permissions:
   contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-
-      - name: Cache Dependencies
-        uses: actions/cache@v2
+      - uses: actions/cache@v2
         with:
           key: ${{ github.ref }}
           path: .cache
-
-      # Install dependencies
-      - run: pip install mkdocs-material pillow cairosvg
+      - run: pip install mkdocs-material
+      - run: pip install pillow cairosvg
 
       # Build and deploy the docs site
       - name: Build and Deploy Docs Site
         run: |
           cd docs-site
           mkdocs build
-          # Copy the built docs-site to a temporary directory
-          mkdir -p ../gh-pages/docs
-          cp -r site/* ../gh-pages/docs
+          # Copy the built docs-site to the root directory in a subdirectory named docs
+          mkdir -p ../docs
+          cp -r site/* ../docs
 
       # Build and deploy the blog site
       - name: Build and Deploy Blog Site
         run: |
           cd blog-site
           mkdocs build
-          # Copy the built blog-site to a temporary directory
-          mkdir -p ../gh-pages/blog
-          cp -r site/* ../gh-pages/blog
+          # Copy the built blog-site to the root directory in a subdirectory named blog
+          mkdir -p ../blog
+          cp -r site/* ../blog
 
       # Commit and push the changes to the gh-pages branch
       - name: Deploy to GitHub Pages
         run: |
-          cd ../gh-pages
-          git init
           git config user.name "GitHub Actions"
           git config user.email "github-actions@example.com"
           git add .
