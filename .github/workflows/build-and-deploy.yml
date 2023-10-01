@@ -42,4 +42,4 @@ jobs:
           git init
           git add .
           git commit -m "Deploying to gh-pages"
-          git push --force --quiet "https://${{ secrets.GITHUB_TOKEN }}@${{ github.
+          git push --force --quiet "https://${{ secrets.GITHUB_TOKEN }}@${{ github.repository }}" HEAD:gh-pages
