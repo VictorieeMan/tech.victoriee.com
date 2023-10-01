@@ -37,6 +37,7 @@ jobs:
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
+          git branch -f gh-pages || git checkout -b gh-pages  # Ensure gh-pages branch exists
           git checkout gh-pages
           rm -rf *
           cp -r ../site/* .
