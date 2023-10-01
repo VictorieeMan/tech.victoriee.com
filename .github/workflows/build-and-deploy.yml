@@ -17,10 +17,10 @@ jobs:
       # Build and deploy the docs site
       - name: Build and Deploy Docs Site
         run: |
-          cd docs
+          cd docs-site
           pip install mkdocs
           mkdocs build
-          # Deploy to GitHub Pages (assuming docs is deployed to the root)
+          # Deploy to GitHub Pages (assuming docs-site is deployed to the root)
           cp -r site/* ../gh-pages/
 
       # Build and deploy the blog site
