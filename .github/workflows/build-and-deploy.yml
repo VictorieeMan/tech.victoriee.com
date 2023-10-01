@@ -39,8 +39,9 @@ jobs:
           git config --global user.name "GitHub Actions"
           git branch -f gh-pages || git checkout -b gh-pages  # Ensure gh-pages branch exists
           git checkout gh-pages
+          mv site $RUNNER_TEMP/site  # Temporarily move site directory
           git rm -rf .  # Remove all existing files
-          cp -r site/* .  # Copy the built site files to the root of gh-pages branch
+          cp -r $RUNNER_TEMP/site/* .  # Copy the built site files to the root of gh-pages branch
           git add .
           git commit -m "Deploy to GitHub Pages"
           git push --force origin gh-pages
