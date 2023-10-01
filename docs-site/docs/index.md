@@ -1,3 +1,7 @@
+# Welcome
+
+To visit the blog follow this link: [https://victorieeman.github.io/blog](https://victorieeman.github.io/blog)
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

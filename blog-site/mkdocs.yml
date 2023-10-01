@@ -7,8 +7,6 @@ theme:
     - scheme: default
       toggle:
         icon: material/brightness-7 
-
-
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -21,6 +19,4 @@ plugins:
   - blog
 
 nav:
-  # - Blog:
   - blog/index.md
-  - Home: https://victorieeman.github.io/
