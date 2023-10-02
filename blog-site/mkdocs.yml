@@ -39,8 +39,8 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/solid/book
-      link: ../
+      link: /
     - icon: fontawesome/solid/blog
-      link: / # This site
+      link: /blog/ # This site
     # - icon: fontawesome/brands/itch-io
     #   link: https://victorieeman.itch.io/
