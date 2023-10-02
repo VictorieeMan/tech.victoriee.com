@@ -15,3 +15,4 @@ I've come across some useful resources for managing mkdocs sites and I will list
 - [Mkdocs](https://www.mkdocs.org/user-guide/)
 - [Material theme](https://squidfunk.github.io/mkdocs-material/getting-started/)
 - [Code Inside Out: MKdocs walkthrough](https://www.codeinsideout.com/blog/site-setup/create-site-project/)
+  - [Its github repo](https://github.com/vuquangtrong/mkdocs-material-blog)
