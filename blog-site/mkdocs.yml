@@ -42,6 +42,10 @@ extra:
       link: /
     - icon: fontawesome/solid/blog
       link: /blog/ # This site
+    - icon: fontawesome/brands/github
+      link: https://github.com/VictorieeMan
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@VictorieeMan
     - icon: fontawesome/solid/gift
       link: https://victoriee.com/donate
     - icon: fontawesome/brands/bitcoin
