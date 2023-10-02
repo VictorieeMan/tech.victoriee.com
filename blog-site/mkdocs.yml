@@ -42,5 +42,13 @@ extra:
       link: /
     - icon: fontawesome/solid/blog
       link: /blog/ # This site
-    # - icon: fontawesome/brands/itch-io
-    #   link: https://victorieeman.itch.io/
+    - icon: fontawesome/solid/gift
+      link: https://victoriee.com/donate
+    - icon: fontawesome/brands/bitcoin
+      link: https://victoriee.com/btcpay
+    - icon: fontawesome/brands/ethereum
+      link: https://victoriee.eth.xyz/
+    - icon: fontawesome/solid/phone
+      link: https://vida.page/victorieeman
+    - icon: fontawesome/solid/envelope
+      link: mailto:gh-pages.s8o1g@e-mail.victoriee.org
