@@ -34,6 +34,8 @@ markdown_extensions:
 
 extra:
   social:
+    - icon: fontawesome/solid/book
+      link: / # This site
     - icon: fontawesome/solid/blog
       link: /blog/
     # - icon: fontawesome/brands/itch-io
