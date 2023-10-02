@@ -1,3 +1,6 @@
+---
+date: 2023-10-02
+---
 # Testing mermaid in mkdocs markdown
 
 Found a mermaid plugin for mkdocs, and I'm testing it out.
