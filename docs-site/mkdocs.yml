@@ -14,3 +14,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+plugins:
+  - git-revision-date-localized:
+          enable_creation_date: true
+          type: iso_date
