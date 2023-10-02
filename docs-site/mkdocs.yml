@@ -14,6 +14,10 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  
+  features:
+  - navigation.tabs
+  - navigation.top
 
 plugins:
   - mermaid2
@@ -27,3 +31,10 @@ markdown_extensions:
               - name: mermaid
                 class: mermaid
                 format: !!python/name:mermaid2.fence_mermaid
+
+extra:
+  social:
+    - icon: fontawesome/solid/blog
+      link: /blog/
+    # - icon: fontawesome/brands/itch-io
+    #   link: https://victorieeman.itch.io/
