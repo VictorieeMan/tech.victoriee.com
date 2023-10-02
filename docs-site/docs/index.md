@@ -2,20 +2,18 @@
 
 To visit the blog follow this link: [https://victorieeman.github.io/blog](https://victorieeman.github.io/blog)
 
-# Welcome to MkDocs
+Math test: $\frac{a}{b}$ \\[\frac{a}{b}\\]
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<!-- Binary Clock -->
+<div id="binary-clock"></div>
+<script>
+  function updateClock() {
+    var now = new Date();
+    var hours = now.getHours().toString(2).padStart(4, '0');
+    var minutes = now.getMinutes().toString(2).padStart(6, '0');
+    var seconds = now.getSeconds().toString(2).padStart(6, '0');
+    document.getElementById('binary-clock').innerText = hours + ' : ' + minutes + ' : ' + seconds;
+  }
+  setInterval(updateClock, 1000);
+  updateClock();
+</script>
