@@ -20,7 +20,7 @@ theme:
   - navigation.top
 
 nav:
-  - feed/index.md
+  - blog/index.md
 
 plugins:
   - blog
