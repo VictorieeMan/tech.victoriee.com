@@ -35,6 +35,10 @@ jobs:
           mkdocs build --site-dir ../site/blog
           cd ..
       
+      # Important for when using a Custom Domain
+      - name: Copy CNAME to site directory
+        run: cp CNAME site/CNAME
+      
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.email "github-actions@github.com"
