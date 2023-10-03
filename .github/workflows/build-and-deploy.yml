@@ -32,7 +32,7 @@ jobs:
       - name: Build and Deploy Blog
         run: |
           cd blog-site
-          mkdocs build --site-dir ../site/blog
+          mkdocs build --site-dir ../site/journal
           cd ..
       
       # Important for when using a Custom Domain
