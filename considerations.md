@@ -15,3 +15,14 @@ plugins:
   #         enable_creation_date: true
   #         type: iso_date
 ```
+
+Found a solution in the docs:
+```
+Note when using build environments
+
+This plugin needs access to the last commit that touched a specific file to be able to retrieve the date. By default many build environments only retrieve the last commit, which means you might need to:
+Change your CI settings
+
+    github actions: set fetch-depth to 0 (docs)
+```
+It's now implemented and running perfectly. Note that this was a solution that ChatGPT-4 with WebbSearch couldn't find. The docs are still a valuable resource to check out personally.

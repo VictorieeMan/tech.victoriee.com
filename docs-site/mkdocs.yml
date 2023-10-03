@@ -21,6 +21,9 @@ theme:
 
 plugins:
   - mermaid2
+  - git-revision-date-localized:
+          enable_creation_date: true
+          type: iso_date
 
 markdown_extensions:
     - pymdownx.superfences:
