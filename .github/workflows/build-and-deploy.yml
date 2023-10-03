@@ -10,7 +10,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -21,6 +23,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: pip install -U mkdocs-mermaid2-plugin
+      - run: pip install mkdocs-git-revision-date-localized-plugin
 
       - name: Build and Deploy Docs
         run: |
