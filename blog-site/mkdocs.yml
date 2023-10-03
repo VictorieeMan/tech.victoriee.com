@@ -1,3 +1,7 @@
+site_name: Victoriee Tech Journal & Blog
+site_description: >-
+    A journal and blog about technology, programming, and other things.
+
 theme:
   name: material
   palette:
@@ -16,10 +20,6 @@ theme:
   features:
   - navigation.tabs
   - navigation.top
-
-  site_name: Victoriee Tech Journal & Blog
-  site_description: >-
-    A journal and blog about technology, programming, and other things.
 
 nav:
   - blog/index.md
