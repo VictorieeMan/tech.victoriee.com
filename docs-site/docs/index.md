@@ -1,6 +1,6 @@
 # Welcome
 
-To visit the blog follow this link: [https://victorieeman.github.io/blog](https://victorieeman.github.io/blog)
+To visit the blog follow this link: [https://tech.victoriee.com/journal/blog/](https://tech.victoriee.com/journal/blog/)
 
 Math test: $\frac{a}{b}$ \\[\frac{a}{b}\\]
 
