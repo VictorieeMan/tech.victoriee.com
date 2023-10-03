@@ -48,7 +48,7 @@ extra:
     - icon: fontawesome/solid/book
       link: /
     - icon: fontawesome/solid/blog
-      link: /blog/ # This site
+      link: journal/blog/ # This site
     - icon: fontawesome/brands/github
       link: https://github.com/VictorieeMan
     - icon: fontawesome/brands/medium
