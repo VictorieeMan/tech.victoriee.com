@@ -1,6 +1,4 @@
 site_name: Victoriee Tech Journal & Blog
-site_description: >-
-    A journal and blog about technology, programming, and other things.
 
 theme:
   name: material
