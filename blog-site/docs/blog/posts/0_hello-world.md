@@ -1,9 +1,15 @@
 ---
 draft: false 
 date: 2023-10-01
+# https://squidfunk.github.io/mkdocs-material/plugins/blog/#usage
 # categories:
 #   - Hello
 #   - World
+# authors:
+#   - squidfunk
+# links:
+#   - setup/setting-up-site-search.md
+#   - insiders/index.md
 ---
 
 # Hello world
