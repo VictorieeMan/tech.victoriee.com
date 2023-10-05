@@ -2,7 +2,7 @@
 
 The time is: <span id="binary-clock"></span>, and all is well.
 
-This site is a work in progress, and I'm still structuring and evolving it. My play is to present some of my technical writing and maybe some projects. Writing and sharing is a valuable part of learning.
+This site is a work in progress, and I'm still structuring and evolving it. My play is to present some of my technical writing and maybe projects. Writing and sharing is a valuable part of learning.
 
 Things I find interesting:
 
