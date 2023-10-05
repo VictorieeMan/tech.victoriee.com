@@ -23,7 +23,7 @@ nav:
   - blog/index.md
 
 plugins:
-  - blog
+  - blog:
       blog_toc: true
   - mermaid2
   - git-revision-date-localized:
