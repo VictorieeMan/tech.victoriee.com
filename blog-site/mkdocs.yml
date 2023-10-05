@@ -24,7 +24,7 @@ nav:
 
 plugins:
   - blog
-    blog_toc: true
+      blog_toc: true
   - mermaid2
   - git-revision-date-localized:
           enable_creation_date: true
