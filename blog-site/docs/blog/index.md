@@ -10,15 +10,15 @@ I'm considering this feature to be implemented, but it's not a priority. Maybe, 
 
 ### Nostr
 
-Also looking into forwarding posts to [https://yakihonne.com](https://yakihonne.com/users/nprofile1qqs05qt95rce97cwj8rasugw2ats45nmxu2u55scrak98jdjqvuhqucpr3mhxue69uhkummnw3ez6vp39eukz6mfdphkumn99e3k7mgpremhxue69uhkummnw3ez6vpj9ejx7unpveskxar0wfujummjvuq3gamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7sf32sh) at the nostr network.
+Also looking into forwarding posts to <a href="https://yakihonne.com/users/nprofile1qqs05qt95rce97cwj8rasugw2ats45nmxu2u55scrak98jdjqvuhqucpr3mhxue69uhkummnw3ez6vp39eukz6mfdphkumn99e3k7mgpremhxue69uhkummnw3ez6vpj9ejx7unpveskxar0wfujummjvuq3gamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7sf32sh" target="_blank">https://yakihonne.com</a> at the nostr network.
 
 ### Medium
 
-[https://medium.com/@VictorieeMan/subscribe](https://medium.com/@VictorieeMan/subscribe)
+<a href="https://medium.com/@VictorieeMan/subscribe" target="_blank">https://medium.com/@VictorieeMan/subscribe</a>
 
 ### Substack
 
-[https://victech.substack.com/subscribe](https://victech.substack.com/subscribe)
+<a href="https://victech.substack.com/subscribe" target="_blank">https://victech.substack.com/subscribe</a>
 
 ---
 
