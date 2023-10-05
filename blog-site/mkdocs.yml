@@ -28,6 +28,11 @@ plugins:
   - git-revision-date-localized:
           enable_creation_date: true
           type: iso_date
+  # - rss:
+  #     feed_ttl: 33600 # Checks three times a week
+  #     feed_description: "My awesome blog's feed"
+  #     feed_title: "My Awesome Blog"
+  #     feed_author_name: "Your Name"
 
 markdown_extensions:
     - pymdownx.superfences:
