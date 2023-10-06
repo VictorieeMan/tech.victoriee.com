@@ -1,0 +1,9 @@
+---
+date: 2023-10-06
+draft: true
+---
+# Hello World: Browser plugin
+
+I just tested building a browser plugin, it was easier than I thought. Here's I'll walk you through the steps of creating a minimal working example of a browser plugin, aka the "Hello World" of browser plugins.
+
+First of all there are two main browser platforms out there, Chromium and Mozilla. They do some thimngs a little differently, but similar enough that we can build a plugin that works on both.
