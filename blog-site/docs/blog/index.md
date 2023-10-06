@@ -20,6 +20,10 @@ Also looking into forwarding posts to <a href="https://yakihonne.com/users/nprof
 
 <a href="https://victech.substack.com/subscribe" target="_blank">https://victech.substack.com/subscribe</a>
 
+## Support & Donate 🎁
+
+Visit <a href="https://victorieeman.com/donate" target="_blank">https://victorieeman.com/donate</a> for supporting this ad-free website. Both one-time and recurring donations are welcome. Thank you for your support!
+
 ---
 
 ## Blog feed below: 👇
@@ -27,4 +31,4 @@ Also looking into forwarding posts to <a href="https://yakihonne.com/users/nprof
 <!-- The blog feed apears beneath: -->
 
 <!-- javascripts -->
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="victorieeman" data-description="Support me on Buy me a coffee!" data-message="https://victoriee.com/donate" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="victorieeman" data-description="Support me on Buy me a coffee!" data-message="Support this ad-free website:👉" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
