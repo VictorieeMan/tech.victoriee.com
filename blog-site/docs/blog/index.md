@@ -22,7 +22,7 @@ Also looking into forwarding posts to <a href="https://yakihonne.com/users/nprof
 
 ## Support & Donate 🎁
 
-Visit <a href="https://victorieeman.com/donate" target="_blank">https://victorieeman.com/donate</a> for supporting this ad-free website. Both one-time and recurring donations are welcome. Thank you for your support!
+Visit <a href="https://victoriee.com/donate" target="_blank">https://victoriee.com/donate</a> for supporting this ad-free website. Both one-time and recurring donations are welcome. Thank you for your support!
 
 ---
 
