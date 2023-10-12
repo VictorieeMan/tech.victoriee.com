@@ -1,6 +1,6 @@
 ---
 date: 2023-10-11
-slug: /mt3001-prob1-01
+slug: /unicode
 draft: true
 categories:
   - MT3001
