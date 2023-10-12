@@ -31,6 +31,9 @@ jobs:
         run: |
           cd docs-site
           mkdocs build --site-dir ../site
+      - name: Copy static folders to site directory ## Needed for images in the blog
+        run:
+          cp -r blog-site/docs/blog/posts/static site/static
           cd ..
       
       - name: Build and Deploy Blog
