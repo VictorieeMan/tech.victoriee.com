@@ -1,7 +1,7 @@
 ---
 date: 2023-10-11
 slug: /unicode
-draft: true
+draft: false
 categories:
   - MT3001
   - Mathematics
