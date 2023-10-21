@@ -2,3 +2,7 @@ _site
 .sass-cache
 node_modules
 .DS_STORE
+
+# Ignoring local test builds:
+blog-site/site/
+docs-site/site/
