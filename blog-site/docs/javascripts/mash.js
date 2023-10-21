@@ -7,11 +7,11 @@ var loader = function () {
     window.Mash.init();
 };
 
-var script = document.createElement("script");
+var script = document$.createElement("script");
 script.type = "text/javascript";
 script.defer = true;
 script.onload = loader;
 script.src = "https://app.mash.com/sdk/sdk.js";
 
-var head = document.getElementsByTagName("head")[0];
+var head = document$.getElementsByTagName("head")[0];
 head.appendChild(script);
