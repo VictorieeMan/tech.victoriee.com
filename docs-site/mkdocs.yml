@@ -2,7 +2,6 @@ site_name: Victoriee Tech Site
 
 theme:
   name: material
-  custom_dir: overrides
   palette:
     # Palette toggle for light mode
     - scheme: default
