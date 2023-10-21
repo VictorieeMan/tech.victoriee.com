@@ -1,6 +1,5 @@
 // for https://www.buymeacoffee.com/victorieeman
 //<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="victorieeman" data-description="Support me on Buy me a coffee!" data-message="Support this ad-free website:👉" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-// for https://www.buymeacoffee.com/victorieeman
 
 // Create a function to add the Buy Me A Coffee script
 function addBMCScript() {
