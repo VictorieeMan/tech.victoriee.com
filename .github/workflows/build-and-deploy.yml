@@ -31,16 +31,17 @@ jobs:
         run: |
           cd docs-site
           mkdocs build --site-dir ../site
-      - name: Copy static folders to site directory ## Needed for images in the blog
-        run: |
-          cp -r blog-site/docs/blog/posts/static site/static
-          cd ..
+          
+      # - name: Copy static folders to site directory ## Needed for images in the blog
+      #   run: |
+      #     cp -r blog-site/docs/blog/posts/static site/static
+      #     cd ..
       
-      - name: Build and Deploy Blog
-        run: |
-          cd blog-site
-          mkdocs build --site-dir ../site/journal
-          cd ..
+      # - name: Build and Deploy Blog
+      #   run: |
+      #     cd blog-site
+      #     mkdocs build --site-dir ../site/journal
+      #     cd ..
       
       # Important for when using a Custom Domain
       - name: Copy CNAME to site directory
