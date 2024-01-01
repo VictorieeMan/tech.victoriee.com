@@ -20,8 +20,8 @@ theme:
   - navigation.tabs
   - navigation.top
 
-nav:
-  - blog/index.md
+# nav:
+#   - blog/index.md
 
 plugins:
   - blog:
