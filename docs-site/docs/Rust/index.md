@@ -1,2 +1,0 @@
-# Rust
-RUST! The language of the future! (Or so they say.) I've been working with Rust for a while now, and I've come to love it. It's a very powerful language, and it's very fast. It's also very safe, and it's very easy to write safe code in Rust. It's also very easy to write unsafe code in Rust, but that's a topic for another time.
