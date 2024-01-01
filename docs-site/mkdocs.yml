@@ -26,6 +26,9 @@ plugins:
           type: iso_date
 
 markdown_extensions:
+  - blog:
+      blog_toc: true
+      pagination: true
     - pymdownx.superfences:
           custom_fences:
               - name: mermaid
