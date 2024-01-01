@@ -29,6 +29,7 @@ plugins:
       blog_toc: true
       pagination: true
   - mermaid2
+  - search
   - git-revision-date-localized:
           enable_creation_date: true
           type: iso_date
