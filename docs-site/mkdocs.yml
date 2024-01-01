@@ -29,13 +29,13 @@ markdown_extensions:
   - blog:
       blog_toc: true
       pagination: true
-    - pymdownx.superfences:
-          custom_fences:
-              - name: mermaid
-                class: mermaid
-                format: !!python/name:mermaid2.fence_mermaid
-    - pymdownx.arithmatex:
-        generic: true
+  - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.arithmatex:
+      generic: true
 
 extra_javascript:
   - javascripts/mathjax.js
