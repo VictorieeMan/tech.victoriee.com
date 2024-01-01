@@ -1,7 +1,0 @@
-.img-responsive {
-    max-height: 300px;
-    width: auto;        /* Auto width will maintain aspect ratio */
-    max-width: 100%;    /* Ensure it never goes beyond the container/page width */
-    display: block;     /* Optional: centers the image if it's inside a block-level element */
-    margin: 0 auto;     /* Optional: centers the image */
-}
