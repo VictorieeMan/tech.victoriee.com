@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Blog Readme
 This folder contains the mk-docs code and files for constructing the tech. Journal & blog page.
 
