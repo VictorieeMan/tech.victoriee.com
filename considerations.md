@@ -26,3 +26,6 @@ Change your CI settings
     github actions: set fetch-depth to 0 (docs)
 ```
 It's now implemented and running perfectly. Note that this was a solution that ChatGPT-4 with WebbSearch couldn't find. The docs are still a valuable resource to check out personally.
+
+#2, 2024-01-01
+Need to have a look at how to handle images in the site, even outside of the blog. Ideally something that works well in my preview in vscode as well as being presented correctly online when served. It might be that external image hosting sites is most optimal for this, but! I want to have backup copies of all images stored here in the repo. So I'm considering the following: Having a good file structure wqithin the repo to stre the files in and links in the markdown files that make relative pointers to the images; and then some kind of script that uploads the image to a site maybe imgur and then comments the original image input and pastes the online image source link instead.
