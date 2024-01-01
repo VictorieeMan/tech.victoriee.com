@@ -43,7 +43,7 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   # - javascripts/mash.js #In current state I don't like how it covers up some of my site design on mobile.
-  - javascripts/mash-platform-snippet.js
+  # - javascripts/mash-platform-snippet.js # Same as above
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
