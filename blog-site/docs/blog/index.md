@@ -24,6 +24,8 @@ Also looking into forwarding posts to <a href="https://yakihonne.com/users/nprof
 
 Visit <a href="https://victoriee.com/donate" target="_blank">https://victoriee.com/donate</a> for supporting this ad-free website. Both one-time and recurring donations are welcome. Thank you for your support!
 
+<!-- <iframe src="https://nowpayments.io/embeds/donation-widget?api_key=QGXYRAD-BGJMTSH-HWMVW90-7HHQWZZ&source=lk_donation&medium=referral" frameborder="0" scrolling="no" style="overflow-y: hidden;" width="354" height="680"></iframe> -->
+
 ---
 
 ## Blog feed below: 👇
