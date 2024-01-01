@@ -27,6 +27,7 @@ theme:
 plugins:
   - blog:
       blog_toc: true
+      pagination: true
   - mermaid2
   - git-revision-date-localized:
           enable_creation_date: true
