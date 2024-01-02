@@ -3,6 +3,9 @@ site_name: Victoriee Tech Journal
 theme:
   name: material
   custom_dir: overrides
+  # Docs: https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#logo
+  logo: V-icon-512x512.png
+  favicon: V-favicon-32x32.png
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
