@@ -78,4 +78,4 @@ extra:
       link: mailto:gh-pages.s8o1g@e-mail.victoriee.org
 
 exclude_docs: |
-  - */readme.md
+  blog/readme.md
