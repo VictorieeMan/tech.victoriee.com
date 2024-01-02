@@ -31,6 +31,3 @@ Visit <a href="https://victoriee.com/donate" target="_blank">https://victoriee.c
 ## Blog feed below: 👇
 
 <!-- The blog feed apears beneath: -->
-
-<!-- javascripts -->
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="victorieeman" data-description="Support me on Buy me a coffee!" data-message="Support this ad-free website:👉" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

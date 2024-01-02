@@ -2,7 +2,6 @@ site_name: Victoriee Tech Journal
 
 theme:
   name: material
-  custom_dir: overrides
   # Logos use docs/ folder as root
   logo: V-icon-512x512.png
   favicon: V-favicon-32x32.png
@@ -31,14 +30,14 @@ theme:
   - navigation.top
 
 plugins:
+  - search
+  - awesome-pages #Docs: https://henrywhitaker3.github.io/mkdocs-material-dark-theme/plugins/awesome-pages/
   - blog:
       blog_toc: true
       pagination: true
   - mermaid2
   - privacy:
       enabled: !ENV [CI, false] #Docs: https://squidfunk.github.io/mkdocs-material/plugins/privacy/
-  - search
-  - awesome-pages #Docs: https://henrywhitaker3.github.io/mkdocs-material-dark-theme/plugins/awesome-pages/
   - git-revision-date-localized:
           enable_creation_date: true
           type: iso_date
@@ -54,8 +53,6 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/mathjax.js
-  # - javascripts/mash.js #In current state I don't like how it covers up some of my site design on mobile.
-  # - javascripts/mash-platform-snippet.js # Same as above
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
