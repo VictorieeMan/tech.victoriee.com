@@ -67,3 +67,16 @@ extra:
       link: https://vida.page/victorieeman
     - icon: fontawesome/solid/envelope
       link: mailto:gh-pages.s8o1g@e-mail.victoriee.org
+
+### Exclude ###
+# Could potentially automate this for all readme files in folders,
+# using bash in the GH- build script.
+# # Generate a list of all files named 'readme.md'
+# exclude_list=$(find . -name 'readme.md' -exec echo "- {}" \;)
+
+# # Output the exclude list to mkdocs.yml
+# echo "exclude:" > mkdocs.yml
+# echo "$exclude_list" >> mkdocs.yml
+
+exclude:
+  - docs/blog/readme.md
