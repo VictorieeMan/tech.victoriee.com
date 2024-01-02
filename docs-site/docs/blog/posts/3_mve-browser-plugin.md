@@ -5,6 +5,8 @@ date: 2023-10-06
 
 I just tested building a browser plugin, it was easier than I thought. Here I'll walk you through the steps of creating a minimal working example of a browser plugin, a.k.a. the "Hello World" of browser plugins.
 
+<!-- more -->
+
 First of all there are two main browser platforms out there, Chromium and Mozilla. They do some things a little differently, but similar enough that we can build a plugin that works on both. This plugin will work in both, I'll describe the firefox version, but the chromium version is very similar.
 
 ## What is a browser plugin?

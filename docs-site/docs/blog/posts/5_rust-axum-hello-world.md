@@ -6,6 +6,8 @@ date: 2023-09-30
 
 Setting up a minimal working example of an Axum server. First up! Start a new rust project, assuming you already have installed cargo on your system. (If not, follow [these steps](https://doc.rust-lang.org/cargo/getting-started/installation.html) to install cargo.) Open your terminal in a suitable location and run:
 
+<!-- more -->
+
 ```bash
 cargo new axum_hello_world; cd axum_hello_world
 ```

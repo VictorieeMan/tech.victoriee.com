@@ -5,6 +5,8 @@ date: 2023-10-02
 
 Found a mermaid plugin for mkdocs, and I'm testing it out.
 
+<!-- more -->
+
 ``` mermaid
 graph LR
   A[Start] --> B{Error?};
