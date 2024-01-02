@@ -36,6 +36,7 @@ plugins:
       pagination: true
   - mermaid2
   - search
+  - awesome-pages #Docs: https://henrywhitaker3.github.io/mkdocs-material-dark-theme/plugins/awesome-pages/
   - git-revision-date-localized:
           enable_creation_date: true
           type: iso_date

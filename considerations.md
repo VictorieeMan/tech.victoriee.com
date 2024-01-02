@@ -32,3 +32,6 @@ Need to have a look at how to handle images in the site, even outside of the blo
 
 #3, 2024-01-02
 Look into using custom colors: #003399 for blue primary for instance. Docs ref: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors-docsstylesheetsextracss Doesn't seem like it's possibly to just add in the yaml file.
+
+#4, 2024-01-02
+Use this https://henrywhitaker3.github.io/mkdocs-material-dark-theme/plugins/awesome-pages/ for arranging sub projects etc in the future!
