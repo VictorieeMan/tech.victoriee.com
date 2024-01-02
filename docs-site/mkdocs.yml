@@ -34,7 +34,9 @@ plugins:
   - awesome-pages #Docs: https://henrywhitaker3.github.io/mkdocs-material-dark-theme/plugins/awesome-pages/
   - blog:
       blog_toc: true
-      pagination: true
+      pagination_per_page: 5 #https://squidfunk.github.io/mkdocs-material/plugins/blog/#pagination
+  - tags:
+      tags_file: blog/tags.md # (1)!
   - mermaid2
   - privacy:
       enabled: !ENV [CI, false] #Docs: https://squidfunk.github.io/mkdocs-material/plugins/privacy/
