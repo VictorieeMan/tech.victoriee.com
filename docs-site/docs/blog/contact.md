@@ -1,5 +1,5 @@
 # Contact
-To keep things things simple, as I like. You can publicly @ me at [xTwitter.com]([twitter.com](https://twitter.com/VictorieeMan)) for free or privately pay the spam filtering over at my [Vida page](https://vida.page/victorieeman) and I'll get back to you.
+To keep things things simple, as I like. You can publicly @ me at [X twitter.com](https://twitter.com/VictorieeMan) for free or privately pay the spam filtering over at my [Vida Page](https://vida.page/victorieeman) and I'll get back to you.
 
 - [https://twitter.com/VictorieeMan](https://twitter.com/VictorieeMan)
 - [https://vida.page/victorieeman](https://vida.page/victorieeman)
