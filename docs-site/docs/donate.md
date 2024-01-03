@@ -3,7 +3,7 @@
 Visit <a href="https://victoriee.com/donate" target="_blank">https://victoriee.com/donate</a> for supporting this ad-free website. Both one-time and recurring donations are welcome. Thank you for your support!
 
 ##### Bitcoin
-- BTCPay: pay.withbitcoin.org (Preferred)
+- BTC Pay: [pay.withbitcoin.org](https://victoriee.com/btcpay) (Preferred)
 - BTC⚡: victorieeman@vida.page
 - BTC paynym: +holyleaf977
 

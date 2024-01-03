@@ -25,7 +25,7 @@ Also looking into forwarding posts to <a href="https://yakihonne.com/users/nprof
 Visit <a href="https://victoriee.com/donate" target="_blank">https://victoriee.com/donate</a> for supporting this ad-free website. Both one-time and recurring donations are welcome. Thank you for your support!
 
 ##### Bitcoin
-- BTCPay: pay.withbitcoin.org (Preferred)
+- BTCPay: [pay.withbitcoin.org](https://victoriee.com/btcpay) (Preferred)
 - BTC⚡: victorieeman@vida.page
 - BTC paynym: +holyleaf977
 
