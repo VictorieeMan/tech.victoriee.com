@@ -38,10 +38,17 @@ Some problems of the current model:
 ### Academia & Industry
 
 ### the history of peer-review
+how research papers used to work, as in early day journals like the Braggs bubble experiments on inter molecular dynamics etc. Journals a place of discussion, not always for fully fletched research. Less gate keeping by publications, often only cheking if mathematics where correct etc. (look into this and research these claims I jsut remember having talked about them with a colleague)
 
 ## the case for open-sourced science
 Accelerating research like software developers accelerated Machine Learning research. Credit for research is still part of the process. Everything gets timestamped and logged.
 
 ## proposed workflow (how to)
+modern tools
+
+- latex or word with HTML save files
+- markdown & github pages
+- easier for machine learning tools to read through
 
 ## conclusion and further ideas
+These tools are available for you free, here and now! And they bring more transparency, a more modern way to work and better contributes to the mutual knowledge bank of mankind + you can more easily get donations form those who appreciate your research when they know it reaches you.
