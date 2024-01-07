@@ -30,6 +30,9 @@ theme:
   - navigation.tabs
   - navigation.top
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   - awesome-pages #Docs: https://henrywhitaker3.github.io/mkdocs-material-dark-theme/plugins/awesome-pages/
