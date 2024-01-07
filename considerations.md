@@ -35,3 +35,9 @@ Look into using custom colors: #003399 for blue primary for instance. Docs ref: 
 
 #4, 2024-01-02
 Use this https://henrywhitaker3.github.io/mkdocs-material-dark-theme/plugins/awesome-pages/ for arranging sub projects etc in the future!
+
+#5, 2024-01-07
+using the nostr comment field? Well maybe if it's possible to have some sort of spam filter or pay to comment thing? I'm not sure I want to have comments on this site, I'm kind of comfy just outsorcing that to posts on medium etc. We will see but I leave this consideration, here.
+<script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment"></script>
+https://github.com/fiatjaf/nocomment
+https://github.com/fiatjaf/nocomment/issues/33
