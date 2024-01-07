@@ -2,6 +2,7 @@ site_name: Victoriee Tech Journal
 
 theme:
   name: material
+  custom_dir: overrides
   # Logos use docs/ folder as root
   logo: V-icon-512x512.png
   favicon: V-favicon-32x32.png
