@@ -41,3 +41,10 @@ using the nostr comment field? Well maybe if it's possible to have some sort of 
 <script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment"></script>
 https://github.com/fiatjaf/nocomment
 https://github.com/fiatjaf/nocomment/issues/33
+
+just add this in the overrides/comments.html file
+```
+{% if page.meta.comments %}
+<script src="https://nocomment.fiatjaf.com/embed.js" id="nocomment"></script>
+{% endif %}
+```
