@@ -2,6 +2,7 @@
 I'm always open for opportunities interesting enough, this goes for both employments as single projects. Present your case, your salary / contract value, and I'll come back to you with my consideration.
 
 I'm particularly interested in opportunities outside the EU, especially in:
+
 - the United States of America
 - Switzerland
 - Japan
