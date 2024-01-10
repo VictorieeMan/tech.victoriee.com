@@ -40,7 +40,7 @@ plugins:
       blog_toc: true
       pagination_per_page: 5 #https://squidfunk.github.io/mkdocs-material/plugins/blog/#pagination
   - tags:
-      tags_file: blog/tags.md # (1)!
+      tags_file: blog/taxonomy.md # (1)!
   - mermaid2
   - privacy:
       enabled: !ENV [CI, false] #Docs: https://squidfunk.github.io/mkdocs-material/plugins/privacy/
