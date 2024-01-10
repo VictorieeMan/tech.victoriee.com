@@ -2,6 +2,8 @@
 ## Main categories
 - [Mathematics](/blog/category/mathematics/)
 - [Programming]()
+
+For extensive list visit the [Taxonomy](/blog/taxonomy/) page.
 ## How to subscribe to the feed
 
 I'll aim to reposting some stuff to Medium and nostr. Letting them deal with email lists, comment fields etc. is easier for me. This site is however the ground truth and the place I'll update first. If any of the following platforms please you, check them out.
