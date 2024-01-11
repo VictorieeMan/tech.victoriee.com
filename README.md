@@ -1,6 +1,10 @@
-# VictorieeMan.github.io
+# tech.victoriee.com
 
 <!--
+
+# VictorieeMan.github.io
+
+
 Run mk docs through:
 pyenv activate .ve-mkdocs-1
 
