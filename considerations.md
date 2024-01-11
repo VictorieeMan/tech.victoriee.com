@@ -50,6 +50,6 @@ just add this in the overrides/comments.html file
 ```
 
 #6, 2024-01-11
-Different devices are looking for different website icons. PWA android apps, iphone devices etc. The regular and default favicon.ico is already setup and working. It was very easy to fix in thedefault mkdocs settings.
+Different devices are looking for different website icons. PWA android apps, iphone devices etc. The regular and default favicon.ico is already setup and working. It was very easy to fix in the default mkdocs settings.
 
 To configure the rest of the icon types would require more work, maybe some html tricking and custom copy instructions in the github deploy script. I'll add this as a consideration for later. It would be nice if my android bookmark for the site wasn't blank as it is now.
