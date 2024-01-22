@@ -9,6 +9,8 @@ tags:
   - solution
 ---
 
+# Adding custom libraries to the flutter apk build
+
 If you are developing an android app in flutter and your apk compilation step works, but then runtime halts on the following error: "ArgumentError (Invalid argument(s): Failed to load dynamic library 'libhub.so': dlopen failed: library "libc++_shared.so" not found"
 
 <!-- more -->
@@ -17,7 +19,9 @@ If you are developing an android app in flutter and your apk compilation step wo
 Exception has occurred.
 ArgumentError (Invalid argument(s): Failed to load dynamic library 'libhub.so': dlopen failed: library "libc++_shared.so" not found: needed by /data/app/[...]/lib/x86_64/libhub.so in namespace classloader-namespace)
 ```
-Then you have something in your code that uses this library to run properly. Ideally flutter together with Gradle is supposed to do everything of this kind of library packaging for you, so step one is to check that your basic configuration is correct. But if that leads to a dead end, I'll offer you a more hands-on approach here. By manually adding the `libc++_shared.so` to your flutter project so that it gets included into the *apk* on build.
+Then you have something in your code that uses this library to run properly. Ideally flutter together with Gradle is supposed to do everything of this kind of library packaging for you, so step one is to check that your basic configuration is correct. It's generally advisable to not have to do custom solutions like this one, and first see what you can do within standard flutter dependency management using `flutter pub get <package>` commands and or by dart solutions like the [dart:ffi package](https://pub.dev/packages/ffi).
+
+But if that leads to a dead end, I'll offer you a more hands-on approach here. By manually adding the `libc++_shared.so` to your flutter project so that it gets included into the *apk* on build.
 
 ## How to add `libc++_shared.so` to your flutter apk
 Flutter lets you do some platform specific customizations, by editing the platform folders. We want to go to this folder `android/app/src/main/` in our flutter project structure, and `mkdir jniLib`. Then `cd` into that folder and create the following file structure:
