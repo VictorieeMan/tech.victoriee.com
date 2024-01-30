@@ -11,6 +11,7 @@ I'm particularly interested in opportunities outside the EU, especially in:
 My primary interest concern technical problem-solving, and dealing with interesting people. I'm well traversed within programming, cross multiple languages and mathematics. If you find something interesting on my blog, it's something I've studied up on and likely have adjacent knowledge around. You can judge your self if I'm a good match for your kind of project, upon contact I will fill you in on my assesment.
 
 I'm flexible across tech stacks and languages, but these are my favorites:
+
 [![My Skills](https://skillicons.dev/icons?i=cpp,rust,flutter)](https://skillicons.dev)
 
 ## Portfolio
