@@ -1,1 +1,0 @@
-How excerpts work https://github.com/squidfunk/mkdocs-material/blob/master/docs/setup/setting-up-a-blog.md
